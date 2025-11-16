@@ -79,7 +79,7 @@ I'm a passionate **DevOps & Cloud Engineer** on a mission to build scalable syst
 
 ## 🔥 **1️⃣ Nginx Load Balancer Project (AWS)**  
 <p align="center">
-  <img src="https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2022/01/12/Fig2-controlPlane.png" width="80%">
+  <img src="https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2022/01/12/Fig2-controlPlane.png" width="30%">
 </p>
 
 A real-world infrastructure setup featuring:
@@ -98,7 +98,7 @@ A real-world infrastructure setup featuring:
 ## 🔥 **2️⃣ Jenkins CI/CD Deployment Pipeline**
 
 <p align="center">
-  <img src="https://www.jenkins.io/images/logos/atomium/256.png" width="80%">
+  <img src="https://www.jenkins.io/images/logos/atomium/256.png" width="30%">
 </p>
 
 Includes:
@@ -127,12 +127,12 @@ Includes:
 # 📊 GitHub Analytics & Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=vivianokose&show_icons=true&theme=tokyonight" height="165">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivianokose&layout=compact&theme=tokyonight" height="165">
+<img src="https://github-readme-stats.vercel.app/api?username=vivianokose&show_icons=true&theme=tokyonight" height="100">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivianokose&layout=compact&theme=tokyonight" height="100">
 </p>
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=vivianokose&theme=tokyonight" height="165">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=vivianokose&theme=tokyonight" height="100">
 </p>
 
 <p align="center">
