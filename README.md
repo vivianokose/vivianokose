@@ -1,162 +1,169 @@
+<!-- Header -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=3DFFB0&height=120&section=header&text=&fontSize=0" width="100%"/>
+</div>
 
-<!-- Banner -->
-<p align="center">
-  <img src="https://info.secureworld.io/hubfs/DevOps-Shutterstock.jpg" alt="DevOps Banner" width="30%">
-</p>
-
-<h1 align="center">Hi, I'm Vivian Chiamaka Okose
-👋</h1>
-<h3 align="center">🚀 DevOps & Cloud Engineer | ☁️ AWS | ⚙️ CI/CD | 🐳 Docker | ☸ Kubernetes | 📦 Terraform</h3>
+<div align="center">
+  <h1>Vivian Chiamaka Okose (Crystal)</h1>
+  <h3>DevOps Engineer &nbsp;|&nbsp; AWS &nbsp;•&nbsp; Terraform &nbsp;•&nbsp; Claude Code &nbsp;•&nbsp; Agentic AI Pipelines</h3>
+  <p>
+    <a href="https://viviancloud.site">
+      <img src="https://img.shields.io/badge/Portfolio-viviancloud.site-3DFFB0?style=for-the-badge&logo=safari&logoColor=black"/>
+    </a>
+    &nbsp;
+    <a href="https://www.linkedin.com/in/okosechiamaka/">
+      <img src="https://img.shields.io/badge/LinkedIn-okosechiamaka-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    </a>
+    &nbsp;
+    <a href="https://dev.to/vivian_okose">
+      <img src="https://img.shields.io/badge/dev.to-vivian__okose-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white"/>
+    </a>
+    &nbsp;
+    <a href="https://hashnode.com/@vivianokose">
+      <img src="https://img.shields.io/badge/Hashnode-vivianokose-2962FF?style=for-the-badge&logo=hashnode&logoColor=white"/>
+    </a>
+  </p>
+</div>
 
 ---
 
-## 👩‍💻 About Me
+## About Me
 
-I'm a passionate **DevOps & Cloud Engineer** on a mission to build scalable systems, automate everything, and empower engineering teams with fast, reliable, secure infrastructure.
+I build production-grade cloud infrastructure and agentic AI pipelines on AWS.
 
-💡 What I love most:  
-✔ Automating repetitive tasks  
-✔ Designing resilient cloud architectures  
-✔ Deploying real-world CI/CD pipelines  
-✔ Solving technical problems with creativity & precision  
+My background is unusual for a DevOps engineer: I have a B.Sc in Biochemistry and an M.Sc in Biotechnology. That scientific background shaped how I approach infrastructure -- methodical, documented, precise. If it cannot be reproduced exactly, it is not done right.
 
-📌 *Fun Fact:*  
-**“If I can repeat it twice… I automate it.”**
+My most recent project is a complete agentic DevOps pipeline: Claude Code Skills for Terraform scaffolding, planning, applying, and deploying; three SubAgents for security auditing, infrastructure writing, and cost optimisation; MCP server integration for live provider schemas; and a production safety layer of hook scripts that block dangerous commands before they execute.
+
+**"Safety is architecture, not discipline."**
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## Featured Project
 
-### 🔧 **DevOps / CI-CD**
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=jenkins,githubactions,git,github,gitlab" />
+### Agentic Infrastructure: Live AWS Deployment Pipeline
+
+> A production-grade agentic DevOps pipeline built from scratch -- environment to safety hooks.
+
+```
+Environment Setup  →  CLAUDE.md  →  Skills  →  Live Deploy  →  SubAgents  →  MCP  →  Safety Hooks
+```
+
+| Component | What It Does |
+|-----------|-------------|
+| CLAUDE.md | Persistent project memory -- agent knows architecture, conventions, constraints |
+| /scaffold-terraform | Generates complete Terraform config from template spec |
+| /tf-plan | Validates, plans, scans for destructions, returns plain-English summary |
+| /tf-apply | Applies saved plan -- provisions real AWS resources |
+| /deploy | Syncs to S3, triggers CloudFront invalidation, reports live URL |
+| security-auditor | Read-only SubAgent -- audits Terraform for misconfigurations |
+| tf-writer | Read-write SubAgent -- generates Terraform using live MCP schema |
+| cost-optimizer | Read-only SubAgent -- reviews infrastructure for cost inefficiencies |
+| SAY hook | Blocks destructive prompts before Claude processes them |
+| DO hook | Blocks dangerous commands before they execute |
+| LOG hook | Writes timestamped entry to deploy.log on every terraform apply |
+
+**Live site:** [viviancloud.site](https://viviancloud.site)
+&nbsp;|&nbsp; **Tech:** Claude Code • Terraform • AWS S3 • CloudFront • MCP • Bash • WSL2
+
+---
+
+## Tech Stack
+
+### Agentic AI and Automation
+![Claude Code](https://img.shields.io/badge/Claude%20Code-AI%20Agent-3DFFB0?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-4F9EFF?style=flat-square)
+![Agentic AI](https://img.shields.io/badge/Agentic%20AI-Pipelines-FF6B6B?style=flat-square)
+
+### Cloud and Infrastructure
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,terraform,docker,kubernetes" />
 </p>
 
-### 🐳 **Containers**
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes" />
+### CI/CD and Version Control
+<p>
+  <img src="https://skillicons.dev/icons?i=githubactions,jenkins,git,github,gitlab" />
 </p>
 
-### ☁️ **Cloud**
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=aws,azure,gcp" />
-</p>
-
-### 🏗 **Infrastructure as Code**
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=terraform" />
-</p>
-
-### 📊 **Monitoring & Logging**
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=prometheus,grafana" />
-</p>
-
-### 💻 **Scripting & OS**
-<p align="left">
+### Scripting and OS
+<p>
   <img src="https://skillicons.dev/icons?i=bash,python,linux" />
 </p>
 
----
-
-## 🌈 Badges That Represent Me
-
-<p align="left">
-  <img src="https://img.shields.io/badge/DevOps-Engineer-blueviolet?style=for-the-badge&logo=azurepipelines&logoColor=white">
-  <img src="https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazonaws&logoColor=white">
-  <img src="https://img.shields.io/badge/Terraform-IaC-7b42bc?style=for-the-badge&logo=terraform&logoColor=white">
-  <img src="https://img.shields.io/badge/Jenkins-CI%2FCD-red?style=for-the-badge&logo=jenkins&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-Containers-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-Admin-yellow?style=for-the-badge&logo=linux&logoColor=black">
+### Monitoring
+<p>
+  <img src="https://skillicons.dev/icons?i=prometheus,grafana" />
 </p>
 
 ---
 
-# 🚀 Featured DevOps Projects
+## Other Projects
+
+### Nginx Load Balancer on AWS
+A real-world infrastructure setup -- 2 web servers, 1 Nginx load balancer, Elastic IP, DNS routing, health checks.
+- [View Repository](https://github.com/vivianokose/steghub_devops/tree/main/load_balancer_solution_with_nginx_and_ssl-tls)
+
+### Jenkins CI/CD Pipeline
+GitHub webhook, automated build, SSH transfer to NFS, full documentation.
+- [View Repository](https://github.com/vivianokose/steghub_devops/tree/main/Tooling%20Website%20deployment%20automation%20with%20Continuous%20Integration.%20Introduction%20to%20Jenkins)
+
+### Three-Tier Cloud Application (CloudAdvisory)
+Custom VPC across 2 AZs, Next.js on EC2 behind ALB, Node.js backend on private EC2, Amazon RDS with Read Replica, AWS SSM Session Manager for zero open-port access.
 
 ---
 
-## 🔥 **1️⃣ Nginx Load Balancer Project (AWS)**  
-<p align="center">
-  <img src="https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2022/01/12/Fig2-controlPlane.png" width="30%">
-</p>
+## GitHub Stats
 
-A real-world infrastructure setup featuring:
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=vivianokose&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivianokose&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
+</div>
 
-✔ 2 Web Servers  
-✔ 1 Nginx Load Balancer  
-✔ Elastic IP  
-✔ DNS Routing  
-✔ Health Checks  
-✔ Scalable Architecture  
-
-📎 **GitHub Repo:** [Nginx Project](https://github.com/vivianokose/steghub_devops/tree/main/load_balancer_solution_with_nginx_and_ssl-tls)
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vivianokose&theme=tokyonight&hide_border=true" height="160"/>
+</div>
 
 ---
 
-## 🔥 **2️⃣ Jenkins CI/CD Deployment Pipeline**
+## Technical Writing
 
-<p align="center">
-  <img src="https://www.jenkins.io/images/logos/atomium/256.png" width="30%">
-</p>
+I document everything publicly -- real projects, real problems, real fixes.
 
-Includes:
-
-✔ GitHub Webhook  
-✔ Automated Build  
-✔ SSH Transfer to NFS  
-✔ Deployment Output (Screenshot Spot #14)  
-✔ Full Documentation  
-
-📎 **GitHub Repo:** [Jenkins Project ](https://github.com/vivianokose/steghub_devops/tree/main/Tooling%20Website%20deployment%20automation%20with%20Continuous%20Integration.%20Introduction%20to%20Jenkins) 
+- **Portfolio:** [viviancloud.site](https://viviancloud.site)
+- **dev.to:** [dev.to/vivian_okose](https://dev.to/vivian_okose)
+- **Hashnode:** [hashnode.com/@vivianokose](https://hashnode.com/@vivianokose)
+- **Medium:** [medium.com/@vivianokose](https://medium.com/@vivianokose)
+- **LinkedIn:** [linkedin.com/in/okosechiamaka](https://www.linkedin.com/in/okosechiamaka/)
 
 ---
 
-## 🔥 **3️⃣ Terraform Infrastructure Deployment**
+## Connect
 
-✔ Automates EC2 instances  
-✔ Uses modules  
-✔ GitHub Actions pipeline  
-✔ Outputs + SSH provisioning  
-
-📎 Repo: Coming soon  
-
----
-
-# 📊 GitHub Analytics & Stats
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=vivianokose&show_icons=true&theme=tokyonight" height="165">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivianokose&layout=compact&theme=tokyonight" height="165">
-</p>
-
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=vivianokose&theme=tokyonight" height="165">
-</p>
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=vivianokose&theme=tokyo-night">
-</p>
-
----
-
-# 🎯 Connect With Me
-
-<p align="center">
+<div align="center">
+  <a href="https://viviancloud.site">
+    <img src="https://img.shields.io/badge/Portfolio-viviancloud.site-3DFFB0?style=for-the-badge&logo=safari&logoColor=black"/>
+  </a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/okosechiamaka/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  
-  <a href="mailto:okosevivian@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail">
+  &nbsp;
+  <a href="mailto:vivianokose@gmail.com">
+    <img src="https://img.shields.io/badge/Email-vivianokose%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-</p>
+</div>
 
 ---
- 
- 
-**Thank you for visiting my profile!**  
-If you're a recruiter or an engineer — I’d love to connect, collaborate, and build impactful DevOps solutions together.  
 
-✨ *“Automation is my love language.”*  
+<div align="center">
+  <p>
+    <em>"Safety is architecture, not discipline."</em><br/>
+    <small>Available for DevOps engineering roles, cloud consulting, and AI automation projects. Remote-first.</small>
+  </p>
+</div>
+
+<!-- Footer -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=3DFFB0&height=80&section=footer" width="100%"/>
+</div>
