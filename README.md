@@ -4,8 +4,8 @@
 </div>
 
 <div align="center">
-  <h1>Vivian Chiamaka Okose (Crystal)</h1>
-  <h3>DevOps Engineer &nbsp;|&nbsp; AWS &nbsp;•&nbsp; Terraform &nbsp;•&nbsp; Claude Code &nbsp;•&nbsp; Agentic AI Pipelines</h3>
+  <h1>Vivian Chiamaka Okose</h1>
+  <h3>DevOps Engineer &nbsp;|&nbsp; AWS &nbsp;•&nbsp; Kubernetes &nbsp;•&nbsp; Terraform &nbsp;•&nbsp; CI/CD</h3>
   <p>
     <a href="https://viviancloud.site">
       <img src="https://img.shields.io/badge/Portfolio-viviancloud.site-3DFFB0?style=for-the-badge&logo=safari&logoColor=black"/>
@@ -27,111 +27,130 @@
 
 ---
 
-## About Me
+I build production-grade cloud infrastructure on AWS. My background is in Biochemistry and Biotechnology, not Computer Science. That scientific training shaped how I approach infrastructure: methodical, documented, reproducible. If it cannot be reproduced exactly, it is not done right.
 
-I build production-grade cloud infrastructure and agentic AI pipelines on AWS.
-
-My background is unusual for a DevOps engineer: I have a B.Sc in Biochemistry and an M.Sc in Biotechnology. That scientific background shaped how I approach infrastructure -- methodical, documented, precise. If it cannot be reproduced exactly, it is not done right.
-
-My most recent project is a complete agentic DevOps pipeline: Claude Code Skills for Terraform scaffolding, planning, applying, and deploying; three SubAgents for security auditing, infrastructure writing, and cost optimisation; MCP server integration for live provider schemas; and a production safety layer of hook scripts that block dangerous commands before they execute.
-
-**"Safety is architecture, not discipline."**
+I have been building in DevOps since early 2025. Every project is documented publicly.
 
 ---
 
-## Featured Project
+## Featured Project: Agentic AWS Deployment Pipeline
 
-### Agentic Infrastructure: Live AWS Deployment Pipeline
-
-> A production-grade agentic DevOps pipeline built from scratch -- environment to safety hooks.
+A production-grade agentic DevOps pipeline built from scratch using Claude Code, Terraform, and a hook-based safety system.
 
 ```
-Environment Setup  →  CLAUDE.md  →  Skills  →  Live Deploy  →  SubAgents  →  MCP  →  Safety Hooks
+Environment → CLAUDE.md → Skills → Live Deploy → SubAgents → MCP → Safety Hooks
 ```
 
 | Component | What It Does |
-|-----------|-------------|
-| CLAUDE.md | Persistent project memory -- agent knows architecture, conventions, constraints |
-| /scaffold-terraform | Generates complete Terraform config from template spec |
-| /tf-plan | Validates, plans, scans for destructions, returns plain-English summary |
-| /tf-apply | Applies saved plan -- provisions real AWS resources |
-| /deploy | Syncs to S3, triggers CloudFront invalidation, reports live URL |
-| security-auditor | Read-only SubAgent -- audits Terraform for misconfigurations |
-| tf-writer | Read-write SubAgent -- generates Terraform using live MCP schema |
-| cost-optimizer | Read-only SubAgent -- reviews infrastructure for cost inefficiencies |
+|---|---|
+| `CLAUDE.md` | Persistent project memory — agent knows architecture, conventions, constraints |
+| `/scaffold-terraform` | Generates complete Terraform config from a template spec |
+| `/tf-plan` | Validates, plans, scans for destructions, returns plain-English summary |
+| `/tf-apply` | Applies saved plan and provisions real AWS resources |
+| `/deploy` | Syncs to S3, triggers CloudFront invalidation, reports live URL |
+| `security-auditor` | Read-only SubAgent: audits Terraform for misconfigurations |
+| `tf-writer` | Read-write SubAgent: generates Terraform using live MCP provider schema |
+| `cost-optimizer` | Read-only SubAgent: reviews infrastructure for cost inefficiencies |
 | SAY hook | Blocks destructive prompts before Claude processes them |
-| DO hook | Blocks dangerous commands before they execute |
+| DO hook | Blocks dangerous tool calls before they execute |
 | LOG hook | Writes timestamped entry to deploy.log on every terraform apply |
 
-**Live site:** [viviancloud.site](https://viviancloud.site)
-&nbsp;|&nbsp; **Tech:** Claude Code • Terraform • AWS S3 • CloudFront • MCP • Bash • WSL2
+**The principle:** Minimal permissions are architecture, not policy. An AI agent that cannot exceed its scope is safer than one that relies on the engineer remembering the right constraints.
+
+**Live site:** [viviancloud.site](https://viviancloud.site) &nbsp;|&nbsp; **Stack:** Claude Code • Terraform • AWS S3 • CloudFront • MCP • Bash • WSL2
+
+---
+
+## Other Projects
+
+### Google Online Boutique on AWS EKS
+
+Deployed an 11-service e-commerce application to AWS EKS from scratch. Terraform provisions the VPC, EKS cluster, and node groups. GitHub Actions builds all 11 Docker images in parallel and pushes to ECR. ArgoCD handles GitOps sync. Prometheus and Grafana handle monitoring. Debugged pod scheduling failures, CI race conditions, and EKS auth issues end to end.
+
+**Stack:** AWS EKS • Terraform • GitHub Actions • ArgoCD • Helm • Prometheus • Grafana • Docker
+
+---
+
+### PetClinic Microservices on Kubernetes (Team Lead)
+
+Led a team of 11 engineers to deploy a 12-service Spring Boot microservices application to a managed Kubernetes cluster. CI/CD pipeline takes a code change from pull request to production in under 8 minutes. Configured Kubernetes Network Policies, Secrets management, rollback procedures, and full Prometheus/Grafana monitoring with live alerting.
+
+**Stack:** AWS EKS • Kubernetes • Terraform • GitHub Actions • Helm • Prometheus • Grafana • Docker
+
+---
+
+### Three-Tier Cloud Application (CloudAdvisory)
+
+Designed and deployed a production-grade, three-tier application on AWS. Custom VPC across 2 Availability Zones, Next.js frontend behind a public ALB, Node.js backend on private EC2, Amazon RDS with read replica. Replaced bastion hosts entirely with AWS SSM Session Manager — zero open ports.
+
+**Stack:** AWS EC2 • ALB • RDS • VPC • IAM • SSM • Terraform
+
+---
+
+### Ansible and Jenkins Infrastructure Automation
+
+Built a Jenkins-Ansible control server to automate configuration across web, NFS, DB, and load balancer servers on AWS. Solved OS mismatch issues between RHEL and Ubuntu nodes using inventory grouping and OS-aware Ansible tasks.
+
+**Stack:** Jenkins • Ansible • AWS • GitHub Actions • Bash
+
+→ [View Repository](https://github.com/vivianokose/ansible-config-mgt)
 
 ---
 
 ## Tech Stack
 
 ### Agentic AI and Automation
+
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-AI%20Agent-3DFFB0?style=flat-square)
 ![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-4F9EFF?style=flat-square)
 ![Agentic AI](https://img.shields.io/badge/Agentic%20AI-Pipelines-FF6B6B?style=flat-square)
 
 ### Cloud and Infrastructure
+
 <p>
-  <img src="https://skillicons.dev/icons?i=aws,terraform,docker,kubernetes" />
+  <img src="https://skillicons.dev/icons?i=aws,terraform,kubernetes,docker" />
 </p>
 
-### CI/CD and Version Control
-<p>
-  <img src="https://skillicons.dev/icons?i=githubactions,jenkins,git,github,gitlab" />
-</p>
+### CI/CD and GitOps
 
-### Scripting and OS
 <p>
-  <img src="https://skillicons.dev/icons?i=bash,python,linux" />
+  <img src="https://skillicons.dev/icons?i=githubactions,jenkins,git,github" />
 </p>
 
 ### Monitoring
+
 <p>
   <img src="https://skillicons.dev/icons?i=prometheus,grafana" />
 </p>
 
----
+### Scripting and OS
 
-## Other Projects
-
-### Nginx Load Balancer on AWS
-A real-world infrastructure setup -- 2 web servers, 1 Nginx load balancer, Elastic IP, DNS routing, health checks.
-- [View Repository](https://github.com/vivianokose/steghub_devops/tree/main/load_balancer_solution_with_nginx_and_ssl-tls)
-
-### Jenkins CI/CD Pipeline
-GitHub webhook, automated build, SSH transfer to NFS, full documentation.
-- [View Repository](https://github.com/vivianokose/steghub_devops/tree/main/Tooling%20Website%20deployment%20automation%20with%20Continuous%20Integration.%20Introduction%20to%20Jenkins)
-
-### Three-Tier Cloud Application (CloudAdvisory)
-Custom VPC across 2 AZs, Next.js on EC2 behind ALB, Node.js backend on private EC2, Amazon RDS with Read Replica, AWS SSM Session Manager for zero open-port access.
+<p>
+  <img src="https://skillicons.dev/icons?i=bash,python,linux" />
+</p>
 
 ---
 
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vivianokose&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
+  <img src="./profile/stats.svg" height="160"/>
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivianokose&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
+  <img src="./profile/langs.svg" height="160"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vivianokose&theme=tokyonight&hide_border=true" height="160"/>
+  <img src="https://streak-stats.demolab.com/?user=vivianokose&theme=tokyonight&hide_border=true" height="160"/>
 </div>
 
 ---
 
 ## Technical Writing
 
-I document everything publicly -- real projects, real problems, real fixes.
+I document everything publicly. Real problems, real debugging, real fixes.
 
 - **Portfolio:** [viviancloud.site](https://viviancloud.site)
-- **dev.to:** [dev.to/vivian_okose](https://dev.to/vivian_okose)
+- **Dev.to:** [dev.to/vivian_okose](https://dev.to/vivian_okose)
 - **Hashnode:** [hashnode.com/@vivianokose](https://hashnode.com/@vivianokose)
 - **Medium:** [medium.com/@vivianokose](https://medium.com/@vivianokose)
 - **LinkedIn:** [linkedin.com/in/okosechiamaka](https://www.linkedin.com/in/okosechiamaka/)
@@ -159,7 +178,7 @@ I document everything publicly -- real projects, real problems, real fixes.
 <div align="center">
   <p>
     <em>"Safety is architecture, not discipline."</em><br/>
-    <small>Available for DevOps engineering roles, cloud consulting, and AI automation projects. Remote-first.</small>
+    <small>Available for DevOps Engineering, Cloud Infrastructure, SRE, and Platform Engineering roles. Remote or relocation.</small>
   </p>
 </div>
 
